@@ -1,3 +1,5 @@
+import {Stack} from './data-structures/stack-array.js';
+
 const stack = new Stack();
 console.log(stack.isEmpty());
 
