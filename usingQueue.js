@@ -1,4 +1,4 @@
-import {Queue} from './data-structures/queue.js';
+import {Queue} from './data-structures/Queue.js';
 
 const queue = new Queue;
 

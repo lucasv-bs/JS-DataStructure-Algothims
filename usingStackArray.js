@@ -1,4 +1,4 @@
-import {Stack} from './data-structures/stack-array.js';
+import {Stack} from './data-structures/StackArray.js';
 
 const stack = new Stack();
 console.log(stack.isEmpty());

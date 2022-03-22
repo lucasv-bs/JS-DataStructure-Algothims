@@ -1,6 +1,6 @@
 const _items = Symbol('stackItems');
 
-class Stack {
+class StackWithSymbol {
     constructor() {
         this[_items] = [];
     }
@@ -38,7 +38,7 @@ class Stack {
     }
 }
 
-const stack = new Stack();
+const stack = new StackWithSymbol();
 const objectSymbols = Object.getOwnPropertySymbols(stack);
 console.log(objectSymbols.length);
 console.log(objectSymbols);
